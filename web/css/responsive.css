@@ -1,0 +1,85 @@
+/* 480px - Móviles chicos */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px 16px;
+    }
+
+    .navbar .nav-links {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 50px 16px 30px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+
+    .card-container {
+        padding: 20px 16px 50px;
+        gap: 20px;
+    }
+
+    .service-list li {
+        font-size: 0.95rem;
+        padding: 8px 12px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 18px 16px;
+    }
+}
+
+/* 768px - Tablets */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .card-container {
+        gap: 24px;
+    }
+}
+
+/* 1024px - Escritorios chicos */
+@media (min-width: 1024px) {
+    .hero {
+        padding: 100px 20px 60px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .card {
+        width: 280px;
+        height: 200px;
+    }
+}
